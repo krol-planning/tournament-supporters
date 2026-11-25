@@ -1,0 +1,13 @@
+/* v0.5: data-only layer. No full-screen background or card fills. */
+html:has(body.obs),body.obs{background:transparent!important;}
+.stage{background:transparent!important;--muted:var(--stage-text);--win-text:var(--stage-accent);--loss-text:var(--stage-text);text-shadow:0 1px 3px #000,0 0 4px #000;}
+.stage[data-theme="light"]{--win-text:var(--stage-accent);--loss-text:var(--stage-text);text-shadow:0 1px 3px #fff,0 0 4px #fff;}
+.stage:before{display:none!important;}
+.stage .brand,.stage .footer{border:0;}
+.stage .rank-row,.stage .matrix th,.stage .matrix td,.stage .side,.stage .detail,.stage .player-panel,.stage .battle-count>div,.stage .game-chip{background:transparent!important;border:0!important;box-shadow:none!important;}
+.stage .players th,.stage .players td{border:0;}
+.stage .rank-row.labels,.stage .muted,.stage .matrix .none,.stage .matrix-name small,.stage .matchtag,.stage .players th,.stage .weapon-name,.stage .detail-note,.stage .data-note,.stage .footer,.stage .empty,.stage .game-chip.invalid{color:var(--stage-text);}
+.stage .matrix .win,.stage .battle-count .winning,.stage .game-chip.left-win,.stage .game-chip.right-win{color:var(--stage-accent);font-weight:750;}
+.stage .matrix .loss{color:var(--stage-text);}
+/* Do not broadcast setup placeholders while no data has been loaded. */
+.obs .stage>.empty:only-child{visibility:hidden;}
