@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "title": "七大戦 デモリーグ",
+  "teams": [
+    {
+      "rank": 1,
+      "id": "A4",
+      "name": "サンプルチーム A4",
+      "wins": 4,
+      "losses": 0
+    },
+    {
+      "rank": 2,
+      "id": "A2",
+      "name": "サンプルチーム A2",
+      "wins": 3,
+      "losses": 1
+    },
+    {
+      "rank": 3,
+      "id": "A3",
+      "name": "サンプルチーム A3",
+      "wins": 2,
+      "losses": 2
+    },
+    {
+      "rank": 4,
+      "id": "A5",
+      "name": "サンプルチーム A5",
+      "wins": 1,
+      "losses": 3
+    },
+    {
+      "rank": 5,
+      "id": "A1",
+      "name": "サンプルチーム A1",
+      "wins": 0,
+      "losses": 4
+    }
+  ],
+  "matches": [
+    {
+      "number": "001",
+      "round": 1,
+      "team1": {
+        "id": "A1",
+        "name": "サンプルチーム A1",
+        "score": 1
+      },
+      "team2": {
+        "id": "A2",
+        "name": "サンプルチーム A2",
+        "score": 2
+      },
+      "status": "finished"
+    },
+    {
+      "number": "002",
+      "round": 1,
+      "team1": {
+        "id": "A3",
+        "name": "サンプルチーム A3",
+        "score": 0
+      },
+      "team2": {
+        "id": "A4",
+        "name": "サンプルチーム A4",
+        "score": 2
+      },
+      "status": "finished"
+    },
+    {
+      "number": "003",
+      "round": 2,
+      "team1": {
+        "id": "A1",
+        "name": "サンプルチーム A1",
+        "score": 0
+      },
+      "team2": {
+        "id": "A3",
+        "name": "サンプルチーム A3",
+        "score": 2
+      },
+      "status": "finished"
+    },
+    {
+      "number": "004",
+      "round": 2,
+      "team1": {
+        "id": "A5",
+        "name": "サンプルチーム A5",
+        "score": 0
+      },
+      "team2": {
+        "id": "A2",
+        "name": "サンプルチーム A2",
+        "score": 2
+      },
+      "status": "finished"
+    },
+    {
+      "number": "005",
+      "round": 3,
+      "team1": {
+        "id": "A1",
+        "name": "サンプルチーム A1",
+        "score": 1
+      },
+      "team2": {
+        "id": "A5",
+        "name": "サンプルチーム A5",
+        "score": 2
+      },
+      "status": "finished"
+    },
+    {
+      "number": "006",
+      "round": 3,
+      "team1": {
+        "id": "A4",
+        "name": "サンプルチーム A4",
+        "score": 2
+      },
+      "team2": {
+        "id": "A2",
+        "name": "サンプルチーム A2",
+        "score": 1
+      },
+      "status": "finished"
+    },
+    {
+      "number": "007",
+      "round": 4,
+      "team1": {
+        "id": "A4",
+        "name": "サンプルチーム A4",
+        "score": 2
+      },
+      "team2": {
+        "id": "A5",
+        "name": "サンプルチーム A5",
+        "score": 0
+      },
+      "status": "finished"
+    },
+    {
+      "number": "008",
+      "round": 4,
+      "team1": {
+        "id": "A2",
+        "name": "サンプルチーム A2",
+        "score": 2
+      },
+      "team2": {
+        "id": "A3",
+        "name": "サンプルチーム A3",
+        "score": 0
+      },
+      "status": "finished"
+    },
+    {
+      "number": "009",
+      "round": 5,
+      "team1": {
+        "id": "A1",
+        "name": "サンプルチーム A1",
+        "score": 1
+      },
+      "team2": {
+        "id": "A4",
+        "name": "サンプルチーム A4",
+        "score": 2
+      },
+      "status": "finished"
+    },
+    {
+      "number": "010",
+      "round": 5,
+      "team1": {
+        "id": "A3",
+        "name": "サンプルチーム A3",
+        "score": 2
+      },
+      "team2": {
+        "id": "A5",
+        "name": "サンプルチーム A5",
+        "score": 0
+      },
+      "status": "finished"
+    }
+  ],
+  "warnings": [],
+  "capturedAt": null
+}
